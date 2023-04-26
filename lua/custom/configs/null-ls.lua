@@ -4,30 +4,30 @@ if not present then
     return
 end
 
-local b = null_ls.builtins
+local formatters = null_ls.builtins.formatting
 
 local sources = {
-
-    -- frontend dev
-    b.formatting.deno_fmt,
-    b.formatting.prettier.with { filetypes = { "html", "markdown", "css", "yaml", "svelte", "tsx", "jsx" } }, -- so prettier works only on these filetypes
-
-    -- Lua
-    b.formatting.stylua,
-    -- general
-    b.code_actions.refactoring,
-
-    --docker
-    b.diagnostics.hadolint,
-
-    -- cpp
-    b.formatting.clang_format,
-    --python
-    b.formatting.black,
-    -- b.diagnostics.mypy,
+    formatters.prettier,
+    formatters.stylua,
+    formatters.black,
 }
 
 null_ls.setup {
     debug = true,
-    sources = sources,
+    sources = sources
 }
+-- local linters = require "null-ls.linters"
+-- linters.setup {
+--   { name = "flake8" },
+--   {
+--     name = "shellcheck",
+--     args = { "--severity", "warning" },
+--   },
+-- }
+--
+-- local code_actions = require "lvim.lsp.null-ls.code_actions"
+-- code_actions.setup {
+--   {
+--     name = "proselint",
+--   },
+-- }
