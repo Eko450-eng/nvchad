@@ -34,22 +34,6 @@ local plugins = {
         end,
     },
     {
-        "zbirenbaum/copilot.lua",
-        lazy = false,
-        cmd = "Copilot",
-        config = function()
-            require("copilot").setup()
-        end,
-    },
-
-    {
-        "zbirenbaum/copilot-cmp",
-        lazy = false,
-        config = function()
-            require("copilot_cmp").setup()
-        end,
-    },
-    {
         "https://github.com/doki-theme/doki-theme-vim.git",
     },
     {
