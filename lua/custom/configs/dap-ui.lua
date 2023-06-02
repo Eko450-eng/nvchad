@@ -1,27 +1,4 @@
 local M = {
-    -- layouts = {
-    --     {
-    --         elements = {
-    --             -- "console",
-    --             "breakpoints",
-    --             "watches",
-    --             "stacks",
-    --             "scopes",
-    --         },
-    --         size = 60, -- 40 columns
-    --         position = "right",
-    --     },
-    --     {
-    --         elements = {
-    --             { id = "repl", size = 1.0 },
-    --         },
-    --         size = 0.25, -- 25% of total lines
-    --         position = "bottom",
-    --     },
-    -- },
-    -- controls = {
-    --     element = "scopes",
-    -- },
 }
 
 -- Style configurations for Dap

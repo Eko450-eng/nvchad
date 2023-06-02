@@ -1,0 +1,63 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@angular/language-server':
+    specifier: ^12.2.0
+    version: 12.2.0
+  '@angular/language-service':
+    specifier: ^12.2.0
+    version: 12.2.0
+  typescript:
+    specifier: ^4.3.5
+    version: 4.3.5
+
+packages:
+
+  /@angular/language-server@12.2.0:
+    resolution: {integrity: sha512-fR1zBoEZBJoaclCNnztXOs7l4hAfDO9627cIC31Z3VPZZE5Jf8Y8L2vVTJ3w0ShoMh87YMP4a5e6pyEwf7cOzg==}
+    engines: {node: '>=10.9.0 <15.0.0'}
+    hasBin: true
+    dependencies:
+      '@angular/language-service': 12.2.0
+      vscode-jsonrpc: 6.0.0
+      vscode-languageserver: 7.0.0
+      vscode-uri: 3.0.2
+    dev: false
+
+  /@angular/language-service@12.2.0:
+    resolution: {integrity: sha512-oWZ3E+640iRxkf+tStNpDbJT4mc7zNdOCg4L0YjpBuDOiStJ0YDgtJfNdYE+Ap7fsb0QvUuXpU0QGnDVazQ1PQ==}
+    engines: {node: ^12.14.1 || >=14.0.0}
+    dev: false
+
+  /typescript@4.3.5:
+    resolution: {integrity: sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /vscode-jsonrpc@6.0.0:
+    resolution: {integrity: sha512-wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==}
+    engines: {node: '>=8.0.0 || >=10.0.0'}
+    dev: false
+
+  /vscode-languageserver-protocol@3.16.0:
+    resolution: {integrity: sha512-sdeUoAawceQdgIfTI+sdcwkiK2KU+2cbEYA0agzM2uqaUy2UpnnGHtWTHVEtS0ES4zHU0eMFRGN+oQgDxlD66A==}
+    dependencies:
+      vscode-jsonrpc: 6.0.0
+      vscode-languageserver-types: 3.16.0
+    dev: false
+
+  /vscode-languageserver-types@3.16.0:
+    resolution: {integrity: sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==}
+    dev: false
+
+  /vscode-languageserver@7.0.0:
+    resolution: {integrity: sha512-60HTx5ID+fLRcgdHfmz0LDZAXYEV68fzwG0JWwEPBode9NuMYTIxuYXPg4ngO8i8+Ou0lM7y6GzaYWbiDL0drw==}
+    hasBin: true
+    dependencies:
+      vscode-languageserver-protocol: 3.16.0
+    dev: false
+
+  /vscode-uri@3.0.2:
+    resolution: {integrity: sha512-jkjy6pjU1fxUvI51P+gCsxg1u2n8LSt0W6KrCNQceaziKzff74GoWmjVG46KieVzybO1sttPQmYfrwSHey7GUA==}
+    dev: false

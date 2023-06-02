@@ -4,7 +4,7 @@ local M = {}
 -- Path to overriding theme and highlights files
 local highlights = require "custom.highlights"
 M.ui = {
-    theme = "vscode_dark",
+    theme = "aquarium",
     theme_toggle = { "vscode_dark", "aquarium" },
     transparency = false,
     nvdash = {

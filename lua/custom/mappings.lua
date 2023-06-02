@@ -28,7 +28,7 @@ M.dap = {
             end,
             "toggle breakpoint",
         },
-        ["<F9>"] = {
+        ["<C-A>"] = {
             function()
                 require("custom.language_mappings").debug_test[vim.bo.filetype]()
             end,
@@ -49,6 +49,7 @@ M.dap = {
 M.telescope = {
     n = {
         ["<C-p>"] = { "<cmd> Telescope git_files <CR>", "find git files" },
+        ["<leader>P"] = { "<cmd> Telescope project <CR>", "Projects view" },
         ["<leader>B"] = { "<cmd> Telescope live_grep <CR>", "live grep" },
     },
 }

@@ -1,5 +1,9 @@
 local M = {}
 
+M.coc = {
+  build = "yarn install --frozen-lockfile"
+}
+
 M.blankline = {}
 
 M.treesitter = {
@@ -33,6 +37,7 @@ M.mason = {
         "css-lsp",
         "html-lsp",
         "typescript-language-server",
+        "angular-language-server",
     },
 }
 
