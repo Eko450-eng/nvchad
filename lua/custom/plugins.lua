@@ -2,6 +2,7 @@ local overrides = require "custom.configs.overrides"
 
 ---@type NvPluginSpec[]
 local plugins = {
+    {"jakerobers/vim-hexrgba", lazy=false},
     {
         "numToStr/Comment.nvim",
         dependencies = "JoosepAlviste/nvim-ts-context-commentstring",

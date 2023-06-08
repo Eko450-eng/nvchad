@@ -35,9 +35,11 @@ M.mason = {
 
         -- web dev stuff
         "css-lsp",
+        "angular-language-server",
         "html-lsp",
         "typescript-language-server",
-        "angular-language-server",
+        "prettier",
+        "prettierd",
     },
 }
 
