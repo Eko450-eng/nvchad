@@ -2,6 +2,17 @@ local overrides = require "custom.configs.overrides"
 
 ---@type NvPluginSpec[]
 local plugins = {
+    {"tpope/vim-dadbod", lazy=false},
+    {"kristijanhusak/vim-dadbod-ui", lazy=false},
+    {"darrikonn/vim-gofmt", lazy=false},
+    {"mfussenegger/nvim-jdtls", lazy=false},
+    {
+      "ggandor/leap.nvim",
+      lazy = false,
+      config = function()
+        require('leap').add_default_mappings()
+      end
+    },
     {"jakerobers/vim-hexrgba", lazy=false},
     {
         "numToStr/Comment.nvim",

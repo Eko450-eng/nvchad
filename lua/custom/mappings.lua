@@ -3,6 +3,15 @@
 ---@type MappingsTable
 local M = {}
 
+M.dadbod = {
+  n = {
+        ["<leader>E"] = { "<cmd> DBUIToggle<CR>", "Toggle DB Ui" },
+        ["<leader>df"] = { "<cmd> DBUIFindBuffer<CR>", "Find in Database" },
+        ["<leader>dr"] = { "<cmd> DBUIRenameBuffer<CR>", "Rename DB" },
+        ["<leader>dl"] = { "<cmd> DBUILastQueryInfo<CR>", "Last query ingo" },
+  }
+}
+
 M.disabled = {
     n = {
         ["<leader>x"] = "",
@@ -68,6 +77,7 @@ M.general = {
             end,
             "close buffer",
         },
+        ["<leader>h"] = { ":bd<CR>", "Kill tab" },
         ["n"] = { "nzzzv", "find next occurrence" },
         ["N"] = { "Nzzzv", "find previous occurrence" },
         ["<leader>k"] = { ":lnext<CR>zz", "location next" },

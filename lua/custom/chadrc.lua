@@ -4,8 +4,8 @@ local M = {}
 -- Path to overriding theme and highlights files
 local highlights = require "custom.highlights"
 M.ui = {
-    theme = "nord",
-    theme_toggle = { "vscode_dark", "nord" },
+    theme = "ashes",
+    theme_toggle = { "ashes", "nord" },
     transparency = false,
     nvdash = {
         load_on_startup = false,

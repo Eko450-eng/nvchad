@@ -5,7 +5,6 @@ local default_plugins = {
     "nvim-lua/plenary.nvim",
 
     -- own
-    { "ggandor/leap.nvim", lazy = false },
     {
         "toppair/peek.nvim",
         lazy = false,
@@ -44,7 +43,6 @@ local default_plugins = {
 
     { "folke/zen-mode.nvim" },
 
-    { "ggandor/leap.nvim" },
     { "iamcco/markdown-preview.nvim", lazy = false },
 
     -- nvchad plugins
