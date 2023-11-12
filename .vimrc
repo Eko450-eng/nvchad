@@ -12,6 +12,9 @@ set shiftwidth=4
 set softtabstop=4
 set undofile
 
+"Dart and Flutter Formatting on save
+let g:dart_format_on_save = v:true
+
 "Markdown previes
 let g:mkdp_port = '3001'
 let g:loaded_python3_provider = 1

@@ -4,8 +4,8 @@ local M = {}
 -- Path to overriding theme and highlights files
 local highlights = require "custom.highlights"
 M.ui = {
-    theme = "ashes",
-    theme_toggle = { "ashes", "nord" },
+    theme = "ayu_dark",
+    theme_toggle = { "decay", "ayu_dark" },
     transparency = false,
     nvdash = {
         load_on_startup = false,
